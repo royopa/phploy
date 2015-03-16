@@ -9,10 +9,29 @@ PHPloy is a incremental Git FTP and SFTP deployment tool. By keeping track of th
 
 Windows users can optionally [download AnsiCon](https://github.com/adoxa/ansicon/releases) to enable the display of colors in the command prompt.  Install it by running `ansicon -i` from a command prompt or "Run" window.
 
-## Usage 
+## Instalation and Usage 
+
+Package available on [Composer](https://packagist.org/packages/royopa/phploy).
+
+If you're using Composer to manage dependencies, you can use
+
+    $ composer require "royopa/phploy": "dev-master"
+
+Or
+
+You can include the following in your composer.json file:
+
+```json
+{
+    "require": {
+        "royopa/phploy": "dev-master"
+    }
+}
+```
+
+Or
 
 As any script, you can use PHPloy globally, from your `bin` directory or locally, from your project directory:
-
 
 ### Using PHPloy locally (per project)
 
@@ -66,14 +85,16 @@ host = staging-example.com
 path = /path/to/installation
 port = 22
 passive = true
-; Files that should be ignored and not uploaded to your server, but still tracked in your repository
+; Files that should be ignored and not uploaded to your server, 
+; but still tracked in your repository
 skip[] = 'src/*.scss'
 skip[] = '*.ini'
 
 [production]
 quickmode = ftp://example:password@production-example.com:21/path/to/installation
 passive = true
-; Files that should be ignored and not uploaded to your server, but still tracked in your repository
+; Files that should be ignored and not uploaded to your server, 
+; but still tracked in your repository
 skip[] = 'libs/*'
 skip[] = 'config/*'
 skip[] = 'src/*.scss'
