@@ -1,4 +1,7 @@
 # PHPloy
+
+[![Latest Stable Version](https://poser.pugx.org/royopa/phploy/v/stable.svg)](https://packagist.org/packages/royopa/phploy) [![Total Downloads](https://poser.pugx.org/royopa/phploy/downloads.svg)](https://packagist.org/packages/royopa/phploy) [![Latest Unstable Version](https://poser.pugx.org/royopa/phploy/v/unstable.svg)](https://packagist.org/packages/royopa/phploy) [![License](https://poser.pugx.org/royopa/phploy/license.svg)](https://packagist.org/packages/royopa/phploy)
+
 **Version 3.0.16-stable**
 
 PHPloy is a incremental Git FTP and SFTP deployment tool. By keeping track of the state of the remote server(s) it deploys only the files that were committed since the last deployment. PHPloy supports submodules, sub-submodules, deploying to multiple servers and rollbacks.
