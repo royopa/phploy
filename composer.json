@@ -17,5 +17,6 @@
         "psr-4": {
             "Banago\\PHPloy\\": "src"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
