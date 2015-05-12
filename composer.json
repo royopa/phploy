@@ -12,7 +12,9 @@
         "banago/bridge": "dev-master",
         "jakeasmith/http_build_url": "dev-master"
     },
-    "require-dev": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
     "autoload": {
         "psr-4": {
             "Banago\\PHPloy\\": "src"
