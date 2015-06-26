@@ -18,19 +18,7 @@ Package available on [Composer](https://packagist.org/packages/royopa/phploy).
 
 If you're using Composer to manage dependencies, you can use
 
-    $ composer require "royopa/phploy": "dev-master"
-
-Or
-
-You can include the following in your composer.json file:
-
-```json
-{
-    "require": {
-        "royopa/phploy": "dev-master"
-    }
-}
-```
+    composer require "royopa/phploy"
 
 Or
 
