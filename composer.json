@@ -9,8 +9,8 @@
         }
     ],   
     "require": {
-        "banago/bridge": "dev-master",
-        "jakeasmith/http_build_url": "dev-master"
+        "banago/bridge": "v1.0.10",
+        "jakeasmith/http_build_url": "^1"
     },
     "require-dev": {
         "phpunit/phpunit": "4.0.*"
@@ -20,5 +20,6 @@
             "Banago\\PHPloy\\": "src"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
